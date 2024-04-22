@@ -7,6 +7,7 @@ public class Exercicio08 {
         Scanner leia = new Scanner(System.in);
         System.out.println("Digite uma palavra");
         char[] palavraArray = leia.next().toLowerCase().toCharArray();
+        leia.close();
         int ponteiroEsquerda = 0;
         int ponteiroDireita = palavraArray.length-1;
 
